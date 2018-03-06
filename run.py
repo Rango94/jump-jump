@@ -2,7 +2,6 @@ import os
 import cv2
 import numpy as np
 import math
-import multiprocessing as mp
 import time
 def screenshot():
     os.system("adb shell /system/bin/screencap -p /mnt/sdcard/screenshot.png")
